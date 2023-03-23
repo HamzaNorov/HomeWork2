@@ -6,6 +6,8 @@ public class Main {
         int age = new Scanner(System.in).nextInt();
         if (age >= 18) {
             System.out.println("Welcome");
+        } else {
+            System.out.println("\t\t\t***Too Young***\n");
         }
     }
 }
